@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class text9 {
+    public static void main(String[] args){
+     Scanner sc = new Scanner(System.in);
+     System.out.println("enter the number of classes held = ");
+     float a = sc.nextFloat();
+     System.out.println("enter the number of classes attended = ");
+     float b = sc.nextFloat();
+     float c = (b/a)*100f;
+     System.out.println("percentage of classes attendes = "+c);
+     if(c>=75)
+     System.out.println("allow to sit in exam");
+     else
+     System.out.println("not allow to sit in exam");
+    }
+}
