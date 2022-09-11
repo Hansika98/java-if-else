@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class text11 {
+   public static void main (String[] args){
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter the character = ");
+    char a = sc.next().charAt(0);
+    if(a>='A' &&  a<='Z')
+    System.out.println("upper case letter");
+    else
+    System.out.println("lowercase letter");
+   } 
+}
