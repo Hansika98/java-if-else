@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class text6 {
+    public static void main(String[]args){
+        System.out.println("enter the year of service = ");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        System.out.println("enter the salary = ");
+        int b = sc.nextInt();
+        if(a>5){
+            System.out.println("hurrah! tou get a bonus of 5%");
+            int c = (b*5)/100;
+            System.out.println("your net bonus ammount = "+c);
+        }
+    }
+    
+}
