@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class text4 {
+    public static void main(String[] args){
+        System.out.println("enter the quantity you purchased = ");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = 100;
+        int c = a*b;
+        if(c>1000){
+            System.out.println("hurrah! you get a 10% discount");
+            int d = (c*10)/100;
+            int e = c-d;
+            System.out.println("your total amount = "+e);
+        }
+        else
+            System.out.println("alas! you don't get any discount");
+    }
+    }
