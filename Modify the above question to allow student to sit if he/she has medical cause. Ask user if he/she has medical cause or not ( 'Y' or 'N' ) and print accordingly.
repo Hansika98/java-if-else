@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class text9 {
+    public static void main(String[] args){
+     Scanner sc = new Scanner(System.in);
+     System.out.println("enter the medical cause in Y or N");
+     char a = sc.next().charAt(0);
+     if(a=='Y')
+     System.out.println("allow to sit in exam");
+     else
+     System.out.println("not allow to sit in exam");
+    }
+}
